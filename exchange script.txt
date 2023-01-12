@@ -1,0 +1,2 @@
+#verificare regole su caselle
+Get-InboxRule -Mailbox centroaccreditamento@almaviva.it | Select-Object * | Out-GridView
